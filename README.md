@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @OmDoshi13
 - 👀 I’m interested in learning codes
 - 🌱 I’m currently learning coding languages
-- 💞️ I’m looking to collaborate on webpages abd some projects
+- 💞️ I’m looking to collaborate on webpages and some projects
 - 📫 How to reach me email:omdoshi2@gmail.com
 
 <!---
