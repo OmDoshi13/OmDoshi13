@@ -1,0 +1,82 @@
+pinCode = ["1234", "1999", "2424", "1985", "5555"]
+# data of the account holders
+accountHoldersName = ["vansh pandav", "om doshi", "dhruv nouni", "atharva dalvi", "ria jindal"]
+accountNumber = ['135312', '199281', "182838", "185597", "667432"]
+balance = [567000, 21873, 2341871, 275638, 91820]
+while True:
+    class PnDbank:
+        def _init_(self, pincode, accountHoldersName, accountNumber, balance):
+            self.pincode = pinCode
+            self.accountHoldersName = accountHoldersName
+            self.accountNumber = accountNumber
+            self.balance = balance
+            self.availableBalance = 0
+
+        def checkdetails(self):
+            print("""\t\t=== Welcome To our PnD ATM System ===""")
+            inputName = input("Enter Your Name: ")
+            inputName = inputName.lower()
+            inputPin = 0000
+            # if pin is wrong it will be use as this is assigned before referance.
+            index = 0
+            # if pin is wrong it will be use as this is assigned before referance.
+
+            if inputName in self.accountHoldersName:
+                inputPin = input("enter your pin:")
+                if (inputPin == self.pincode[accountHoldersName.index(inputName)]):
+                    index = accountHoldersName.index(inputName)
+                    obj.view(inputName, inputPin, index)
+                else:
+                    print("invalid pin ")
+            else:
+                print("not a customer of the bank")
+
+        def view(self, inputName, inputPin, index):
+            print("\nYour account number is: ", self.accountNumber[index])
+            print("Your account balance is: Rs.", self.balance[index])
+            withdrawOrDeposit = input("\nDo you want to withdraw or deposit cash (withdraw/deposit/exit): ")
+            if withdrawOrDeposit == "withdraw":
+                obj.withdraw(index)
+
+            elif withdrawOrDeposit == "deposit":
+                obj.deposit(index)
+
+        def withdraw(self, index):
+            amount = int(input("\nEnter the amount you want to withdraw: "))
+            try:
+                # Exception handling
+                if amount > self.balance[index]:
+                    raise
+                else:
+                    remainingBalalnce = self.balance[index] - amount
+                    # subtracting the withdrawed amount.
+                    self.balance.remove(self.balance[
+                                            index])
+                    # removing the old ammount from the list and adding the new list after withdraw.
+                    self.balance.insert(index, remainingBalalnce)
+                    self.availableBalance = print("\nYour available balance is: ", remainingBalalnce)
+            except:
+                print("invalid amount.")
+                pass
+            print("\n\nThank you for using our PnD ATM System. \n  Brought To You By Pandav's & Doshi's Bank")
+
+        def deposit(self, index):
+            amount = int(input("Enter the amount you want to deposit: "))
+            try:
+                if amount > self.balance[index]:
+                    raise
+            except:
+                raise
+            pass
+            remainingBalance = self.balance[index] + amount
+            # adding the deposited amount.
+            self.balance.remove(
+                self.balance[index])
+            # removing the old ammount from the list and adding the new list after withdraw.
+            self.balance.insert(index, remainingBalance)
+            self.availableBalance = print("Your available balance is: ", remainingBalance)
+            print("\n\nThank you for using our PnD ATM. \n  Brought To You By Pandav's & Doshi's Bank")
+
+
+    obj = PnDbank(pinCode, accountHoldersName, accountNumber, balance)
+    obj.checkdetails()
