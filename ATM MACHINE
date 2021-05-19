@@ -62,17 +62,11 @@ while True:
 
         def deposit(self, index):
             amount = int(input("Enter the amount you want to deposit: "))
-            try:
-                if amount > self.balance[index]:
-                    raise
-            except:
-                raise
             pass
             remainingBalance = self.balance[index] + amount
             # adding the deposited amount.
             self.balance.remove(
                 self.balance[index])
-            # removing the old ammount from the list and adding the new list after withdraw.
             self.balance.insert(index, remainingBalance)
             self.availableBalance = print("Your available balance is: ", remainingBalance)
             print("\n\nThank you for using our PnD ATM. \n  Brought To You By Pandav's & Doshi's Bank")
