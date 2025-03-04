@@ -3,7 +3,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=omdoshi13&label=Profile%20views&color=0e75b6&style=flat" alt="omdoshi13" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=omdoshi13" alt="omdoshi13" /></a> </p>
+
 
 - 🌱 I’m currently learning **Deep Learning & NLP, Big Data Technologies and Cloud Computing.**
 
