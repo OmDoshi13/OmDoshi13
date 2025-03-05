@@ -15,6 +15,49 @@
 
 - 📫 How to reach me **omdoshi2@gmail.com**
 
+- ## 🛠 Tech Stack
+
+### Programming Languages:
+- C | Python | R | SQL | Java | C++ | Go | PHP | JavaScript  
+
+### Tools & Software:
+- **Data Analysis & Visualization:** Tableau | Power BI | Advanced Excel | Gretl  
+- **Cloud & Deployment:** AWS Cloud Foundation  
+- **Version Control & Collaboration:** Git | GitHub  
+- **Statistical Tools:** RStudio | MATLAB  
+- **Development Tools:** IntelliJ IDEA | Visual Studio Code  
+
+### Frameworks & Libraries:
+- **Back-End Development:** JavaFX | Spring Boot | Hibernate | Flask  
+- **Data Science & Machine Learning:** scikit-learn | Pandas | NumPy | Matplotlib | Seaborn  
+- **NLP:** spaCy | NLTK  
+- **Web Development:** HTML | CSS | Bootstrap  
+
+### Skills:
+- **Data Science & Analytics:**
+  - Predictive Modeling | Statistical Analysis | Data Cleaning | Data Processing  
+  - Time Series Analysis | Regression Analysis | Hypothesis Testing  
+  - Database Management and Query Optimization  
+
+- **Machine Learning & AI:**  
+  - Supervised and Unsupervised Learning | Natural Language Processing (NLP) | AI-Based Solutions  
+  - Building AI-Powered Systems | Automation | Recommendation Systems  
+
+- **Software Development:**  
+  - Object-Oriented Programming (OOP) | Agile Methodologies  
+  - Full-Stack Development | Back-End APIs | Application Optimization  
+  - Debugging | Code Review | Quality Assurance  
+
+- **Project Management & Collaboration:**  
+  - Team Collaboration | Agile and Scrum Practices | Problem Solving | Decision Making  
+
+
+
+## 📊 GitHub Stats and Activity
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=OmDoshi13&show_icons=true&theme=radical)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=OmDoshi13&layout=compact&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/omdoshii" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="om doshi" height="30" width="40" /></a>
